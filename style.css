@@ -1,0 +1,42 @@
+/* containers */
+
+body {
+    background-color: #191919;
+}
+
+.page-container {
+    margin: 20%;
+    padding: 2rem;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #dddddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border-right: 5px solid #b0b0b0;
+    border-bottom: 5px solid #b0b0b0;
+}
+
+.social-links {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* text */
+
+p, h1, h2, h3 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #191919;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* icons */
+
+.social-link-icon {
+    width: 3rem;
+}
