@@ -1,3 +1,5 @@
+/* animations */
+
 @keyframes scanlines {
     0% {
         transform: translateY(0);
@@ -15,6 +17,8 @@
         opacity: 0;
     }
 }
+
+/* containers */
 
 body {
     background-color: #191919;
@@ -93,4 +97,17 @@ p {
 .social-link-icon {
     width: 4rem;
     margin: 1rem;
+}
+
+.cat-idle {
+    position: absolute;
+    bottom: 3rem;
+    right: 5rem;
+    width: 4rem;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.cat-idle:hover {
+    content: url("./assets/cat-clean.gif")
 }
